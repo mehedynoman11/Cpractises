@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-void reverse(int i) {
-    if (i == 6) return;
-    reverse(i + 1);
+void recalls(int i) {
+    if (i == 10001) return;
     printf("%d\n", i);
+    recalls(i + 1);
 }
 
 int main() {
     // Write Your Code Here
-    reverse(1);
-
+    recalls(1);
+    
     return 0;
 }
