@@ -5,10 +5,10 @@ using namespace std;
 class Students 
 {
     public:
-    char name[100];
-    int roll;
-    int cls;
-    char section;
+        char name[100];
+        int roll;
+        int cls;
+        char section;
 };
 
 int main() {
