@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "SECONDARY_DIAGONAL.C": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ostream": "cpp"
     }
 }
