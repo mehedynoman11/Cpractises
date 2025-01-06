@@ -1,20 +1,20 @@
 #include <iostream>
 #include <string.h>
 #include <algorithm>
+#include <vector>
 using namespace std;
 int main()
 {
     int N;
     cin >> N;
-    char S[N + 1];
-    cin.ignore();
+    vector<char> S(N);
 
     for (int i = 0; i < N; i++)
     {
         cin >> S[i];
     }
 
-    sort(S, S + N);
+    sort(S.begin(), S.end());
 
     for (int i = 0; i < N; i++)
     {
