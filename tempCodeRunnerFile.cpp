@@ -1,23 +1,3 @@
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <algorithm>
-using namespace std;
-
-
-int main() {
-    string s;
-    getline(cin, s);
-    string word, result;
-    stringstream ss(s);
-    while(ss>>word) {
-        reverse(word.begin(), word.end());
-        if (!result.empty()) {
-            result += " ";
-        }
-        result += word;
+for (int i = 0; i < 5; i++) {
+        cout << a[i].name << " " << a[i].roll << " " << a[i].marks << endl;
     }
-    cout << result << endl;
-
-    return 0;
-}
