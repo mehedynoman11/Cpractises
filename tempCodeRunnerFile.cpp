@@ -1,3 +1,1 @@
-for (int i = 0; i < 5; i++) {
-        cout << a[i].name << " " << a[i].roll << " " << a[i].marks << endl;
-    }
+ "<<students[i].cls<<" "<<students[i].section<<" "<<students[i].id<<endl;
