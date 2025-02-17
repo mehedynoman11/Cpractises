@@ -17,7 +17,7 @@ int main() {
     Node b(20);
 
     a.next = &b;
-    
+
     cout<<a.val<<endl;
     cout<<a.next->val<<endl;
     cout<<(*a.next).val<<endl;
